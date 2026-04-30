@@ -1,3 +1,20 @@
+<#
+.SYNOPSIS
+Skrypt monitorujący folder i automatycznie przenoszący nowe pliki tekstowe.
+
+.DESCRIPTION
+Skrypt używa FileSystemWatcher do ciągłego monitorowania folderu "TakeHere". 
+Po wykryciu nowego pliku z rozszerzeniem .txt, przenosi go do folderu "PutHere" 
+i automatycznie wywołuje skrypt skanujący (Check-Virus.ps1) w celu weryfikacji pliku pod kątem złośliwego oprogramowania.
+
+.EXAMPLE
+.\Zadanie1.ps1
+Uruchamia monitorowanie w tle. Skrypt działa w nieskończonej pętli. Aby go zatrzymać, należy użyć skrótu Ctrl+C.
+
+.NOTES
+Autor: Pavel Stankevich
+Data: 30.04.2026
+#>
 #Utworzenie katalogu docelowego, jesli nie istnieje
 if ((Test-Path "c:\stuff\Study\Sem2PS\Lab7\PutHere") -eq $false){
     New-Item "c:\stuff\Study\Sem2PS\Lab7\PutHere" -ItemType Directory
