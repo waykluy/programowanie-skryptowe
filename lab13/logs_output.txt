@@ -1,0 +1,12 @@
+Fri Jun 12 05:25:12 PM CEST 2026
+Number of suspicious logs: 
+8
+Logs: 
+Jun 11 14:54:40 cbekali sshd-session[9013]: Invalid user localhost from 127.0.0.1 port 55348
+Jun 11 14:54:40 cbekali sshd-session[9013]: Connection closed by invalid user localhost 127.0.0.1 port 55348 [preauth]
+Jun 11 14:55:25 cbekali sshd-session[9333]: Invalid user localhost from 127.0.0.1 port 59156
+Jun 11 14:55:25 cbekali sshd-session[9333]: Connection closed by invalid user localhost 127.0.0.1 port 59156 [preauth]
+Jun 11 14:55:57 cbekali sshd-session[9561]: Invalid user localhost from 127.0.0.1 port 58880
+Jun 11 14:55:57 cbekali sshd-session[9561]: Connection closed by invalid user localhost 127.0.0.1 port 58880 [preauth]
+Jun 11 17:01:41 cbekali sshd-session[56958]: Invalid user cbekalilol from ::1 port 42418
+Jun 11 17:01:41 cbekali sshd-session[56958]: Connection closed by invalid user cbekalilol ::1 port 42418 [preauth]

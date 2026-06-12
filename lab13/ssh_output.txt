@@ -1,0 +1,17 @@
+Current user:
+cbekali
+Current path:
+/home/cbekali
+List of files/catalogs in current path:
+  
+Desktop
+Documents
+Downloads
+ftparchive_copy.tar.gz
+Music
+Pictures
+Public
+stuff
+Templates
+thinclient_drives
+Videos
